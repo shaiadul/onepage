@@ -1,0 +1,46 @@
+.main-card{
+    background-image: url(https://www.hyperlinkinfosystem.com/assets/frontend_assets/img/pattern-1.svg);
+    /* background-image: url(https://www.hyperlinkinfosystem.com/assets/frontend_assets/img/pattern2.svg); */
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+    margin: 10 auto;
+    background-color: #4842a8;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: -90px;
+    overflow: hidden;
+}
+.card-title{
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1rem!important;
+    margin-top: 15px;
+}
+.card-text{
+    font-size: 18px;
+    line-height: 28px;
+}
+.card-button{
+    margin: 25px 0;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}

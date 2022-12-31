@@ -1,0 +1,55 @@
+.logo-top{
+    height: 50px;
+    width: 153px;
+}
+
+.desk-li-sty li a{
+    display: inline-flex;
+    padding: 0px;
+    margin: 4px;
+    font-size: 15px;
+    /* font-weight: 500; */
+    color: rgb(11, 2, 2);
+    cursor: pointer;
+}
+.desk-li-sty li a svg{
+   margin: 0px;
+   padding: 0px;
+}
+.arrow-down{
+    margin: 0px;
+    padding: 0px;
+    width: 10px;
+}
+
+/* only for button */
+.top-button {
+    color: #090909;
+    padding: 5px ;
+    font-size: 14px;
+    border-radius: 15px;
+
+    /* background: #e8e8e8; */
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+               -6px -6px 12px #ffffff;
+  }
+  
+  top-button:hover {
+    border: 1px solid white;
+  }
+  
+  top-button:active {
+    box-shadow: 4px 4px 12px #c5c5c5,
+               -4px -4px 12px #ffffff;
+  }
+  .top-nav{
+    background-color: #fefefe;
+  }
+  .top-color{
+    color: #ffffff !important;
+    font-weight: 700;
+    padding: 3px 7px;
+    background-color: #4741a6;
+  }
